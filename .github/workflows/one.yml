@@ -19,7 +19,7 @@ jobs:
       - name: Fetch playlist and prepend #EXTM3U
         run: |
           RAW_URL="https://raw.githubusercontent.com/shareext-reborn/Shareext-UpdateFilesSports.m3u/refs/heads/main/Shareext%40playlist"
-          OUTPUT_FILE="Shareext@playlist"
+          OUTPUT_FILE="one.m3u8"
 
           # Download the playlist
           curl -fsSL "$RAW_URL" -o /tmp/playlist_raw.m3u
