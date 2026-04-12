@@ -1,32 +1,25 @@
 name: one
-
 on:
   schedule:
     - cron: '0 0 * * *'   # runs every day at midnight UTC
   workflow_dispatch:        # allows manual trigger from GitHub UI
-
 permissions:
   contents: write
-
 jobs:
-  update-playlist:
+  get-playlist:
     runs-on: ubuntu-latest
-
+    env:
+      OUTPUT_FILE: "one.m3u8"
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-
       - name: Fetch playlist and prepend #EXTM3U
         run: |
           RAW_URL="https://raw.githubusercontent.com/shareext-reborn/Shareext-UpdateFilesSports.m3u/refs/heads/main/Shareext%40playlist"
-          OUTPUT_FILE="one.m3u8"
-
           # Download the playlist
           curl -fsSL "$RAW_URL" -o /tmp/playlist_raw.m3u
-
           # Check if #EXTM3U is already the first line
           FIRST_LINE=$(head -n 1 /tmp/playlist_raw.m3u)
-
           if [ "$FIRST_LINE" = "#EXTM3U" ]; then
             echo "#EXTM3U already present, copying as-is."
             cp /tmp/playlist_raw.m3u "$OUTPUT_FILE"
@@ -34,17 +27,13 @@ jobs:
             echo "Prepending #EXTM3U..."
             { echo "#EXTM3U"; cat /tmp/playlist_raw.m3u; } > "$OUTPUT_FILE"
           fi
-
           echo "Done. First 3 lines:"
           head -n 3 "$OUTPUT_FILE"
-
       - name: Commit and push if changed
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-
-          git add "Shareext@playlist"
-
+          git add "$OUTPUT_FILE"
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
