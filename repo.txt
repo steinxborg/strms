@@ -5,3 +5,5 @@ https://github.com/cunsharp/h2w-cast/blob/0a44275a09a2b7a0102593b9699f54f69dfc8b
 https://github.com/hasanhabibmottakin/match/blob/ebe84bec995088856ab30784185dec0743d26d68/api_data.json#L3059
 
 https://github.com/hasanhabibmottakin/drm-channenls-events/blob/19d30755b4e2fc7575c9ed1c48c1d215a381be5c/__DLIVE__/sports_channels.json#L283
+
+https://github.com/Love4vn/love4vn/blob/83fccc7f28e5a22f3a72b7068ed17b3d690296c2/Sport.m3u#L122
