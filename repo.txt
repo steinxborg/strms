@@ -9,3 +9,5 @@ https://github.com/hasanhabibmottakin/drm-channenls-events/blob/19d30755b4e2fc75
 https://github.com/Love4vn/love4vn/blob/83fccc7f28e5a22f3a72b7068ed17b3d690296c2/Sport.m3u#L122
 
 https://github.com/Love4vn/Live-Schedue/blob/1/live_schedule.m3u
+
+https://github.com/englishcd/ai/blob/94e18bf4f2c9ca0398726080187911ccf949985a/a0a.txt#L460
