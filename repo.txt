@@ -7,3 +7,5 @@ https://github.com/hasanhabibmottakin/match/blob/ebe84bec995088856ab30784185dec0
 https://github.com/hasanhabibmottakin/drm-channenls-events/blob/19d30755b4e2fc7575c9ed1c48c1d215a381be5c/__DLIVE__/sports_channels.json#L283
 
 https://github.com/Love4vn/love4vn/blob/83fccc7f28e5a22f3a72b7068ed17b3d690296c2/Sport.m3u#L122
+
+https://github.com/Love4vn/Live-Schedue/blob/1/live_schedule.m3u
