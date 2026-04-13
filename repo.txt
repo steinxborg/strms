@@ -23,6 +23,6 @@ https://github.com/Muji777/Exp/blob/2779a9da10463237c1d821fca3d2750828ba3245/Spo
 https://github.com/bugsfreeweb/LiveTVCollector/blob/ae4e0f0e147e96d67571b3de33906691a901e805/BugsfreeStreams/processed_links-ID.json#L2522
 
 
-
+https://raw.githubusercontent.com/mimipipi22/lalajo/refs/heads/main/playlist25
 
 https://github.com/karepech/Karepetv/blob/f8fc2fd5fc74bc3ed70eb76f97891421a7c7a598/sports_combined.m3u
