@@ -26,3 +26,5 @@ https://github.com/bugsfreeweb/LiveTVCollector/blob/ae4e0f0e147e96d67571b3de3390
 https://raw.githubusercontent.com/mimipipi22/lalajo/refs/heads/main/playlist25
 
 https://github.com/karepech/Karepetv/blob/f8fc2fd5fc74bc3ed70eb76f97891421a7c7a598/sports_combined.m3u
+
+https://github.com/JekaLich/smtk/blob/48d463f1f9912dfe2175cfba3000b1212d997d31/tv.smtk.m3u#L524
