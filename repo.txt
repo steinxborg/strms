@@ -31,3 +31,5 @@ https://github.com/JekaLich/smtk/blob/48d463f1f9912dfe2175cfba3000b1212d997d31/t
 https://github.com/mimipipi22/lalajo/blob/7e8d9e7e80a75a638639646c4ddf1a2e8680aeb9/iptv#L630
 
 https://github.com/Telkac/Telkac/blob/0eb5075e9b17ad3e61ea8c772d9a86d3662383d3/Skuska1.m3u8#L1040
+
+https://github.com/yairnaumbu-create/iptv/blob/2e4f166f8ac318f09447b9ed7f6ae07b2b95620c/playlist.m3u#L71 IL
